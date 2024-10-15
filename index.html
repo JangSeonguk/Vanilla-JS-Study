@@ -9,10 +9,11 @@
 </head>
 <body>
     <h1>Click Me!</h1>
-    <form id="login-form">
-        <input required maxlength="15" type="text" placeholder="what is your name?">
-        <button>Log In</button>
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="what is your name?" name="username">
+        <input type="submit" value="Log In">
     </form>
+    <h1 id="greeting" class="hidden"></h1>
     <script src="app.js"></script>
 
 </body>
