@@ -23,7 +23,6 @@ function handleloginForm(event){
 }
 
 
-
 h1.addEventListener("click",handleClicked);
 login_form.addEventListener("submit", handleloginForm);
 
@@ -34,5 +33,4 @@ if (savedUsername===null){
     login_form.addEventListener("submit", handleloginForm);}
     else{
         paintGreetings(savedUsername)
-
 }
